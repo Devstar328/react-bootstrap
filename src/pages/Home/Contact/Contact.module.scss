@@ -1,0 +1,87 @@
+$btnWidth: 418px;
+$btnHeight: 89px;
+$btnRadius: 10px;
+
+.div {
+    width:100%;
+    height: 1500px;
+    position: relative;
+    background-size: cover;
+    background-image: url('../../../assets/contact/bg.jpg') ;
+    background-position: center;
+    text-align: center;
+}
+
+.title {
+    color: rgb(47, 221, 222);
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 800px;
+}
+
+.join {
+    margin: 85px auto;
+    display: flex;
+    justify-content: center;
+
+    div {
+        display: flex;
+    }
+
+    img {
+        padding-right: 19px;
+    }
+
+    .discord {
+        width: $btnWidth;
+        height: $btnHeight;
+        border-radius: $btnRadius;
+        font-size: 36px;
+        background-color: #02b8b9;
+        margin-right: 72px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .telegram {
+        width: $btnWidth;
+        height: $btnHeight;
+        border-radius: $btnRadius;
+        font-size: 36px;
+        background-color: #f1720b;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.subscribe {
+    margin-top: 131px;
+    margin-bottom: 50px;
+
+    .email {
+        width: 858px;
+        margin-right: 21px;
+        height: 96px;
+        padding: 46px;
+        font-size: 43px;
+        border-radius: $btnRadius;
+    }
+
+    .btn {
+        width: 285px;
+        height: 96px;
+        border-radius: $btnRadius;
+        font-size: 38px;
+        background-color: #019888;
+        color: white;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+.div {
+  background-image: url('../../../assets/about/bg.png') ;
+}
+
+.about {
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.center {
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+
+  img {
+    width: 80%;
+  }
+}
+
+.title {
+  font-size: 66px;
+  color: rgb(47, 221, 222);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.description {
+  max-width: 570px;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 215);
+}
+
+.btn {
+  margin-top: 60px;
+  background-color: rgb(36, 161, 183);
+  width: 418px;
+  height: 85px;
+  font-size: 33.06px;
+  border-radius: 10px;
+  color: white;
+}

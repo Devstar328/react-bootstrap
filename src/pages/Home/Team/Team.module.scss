@@ -1,0 +1,20 @@
+.div {
+    background-image: url('../../../assets/team/bg.png') ;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: #ffffd7;
+}

@@ -1,0 +1,21 @@
+.body {
+    width:100%;
+    background-image: url('../../assets/background_about.jpg') ;
+    text-align: center;
+    .title {
+        color: white;
+        font-size: 65.45px;
+        
+    }
+    .content {
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        align-items: stretch;
+        .div {
+            width: 25%;
+            margin: 10px;
+            
+        }
+    }
+}
